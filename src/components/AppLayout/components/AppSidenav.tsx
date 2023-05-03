@@ -2,6 +2,7 @@ import React from "react";
 import { Layout, Menu, MenuProps } from "antd";
 import { AuditOutlined, PieChartOutlined } from "@ant-design/icons";
 import { useLocation, useNavigate } from "react-router-dom";
+import AppLogo from "../../AppLogo";
 
 type MenuItem = Required<MenuProps>["items"][number];
 
@@ -33,13 +34,7 @@ const AppSidenav = () => {
 
   return (
     <Layout.Sider style={siderStyle}>
-      <div
-        style={{
-          height: 32,
-          margin: 16,
-          background: "rgba(255, 255, 255, 0.2)",
-        }}
-      />
+      <AppLogo />
       <Menu
         onClick={onClick}
         theme="dark"
