@@ -1,0 +1,107 @@
+{
+  "qa": {
+    "resultAnswers": [
+      {
+        "id": 1,
+        "question": "Assess the severity of business consequences in the event of a loss of availability?",
+        "coefficient": 0.5,
+        "Answers": [
+          { "id": 1, "questionId": 1, "answer": "Negligible", "value": 2 },
+          { "id": 2, "questionId": 1, "answer": "Minor", "value": 4 },
+          { "id": 3, "questionId": 1, "answer": "Moderate", "value": 6 },
+          { "id": 4, "questionId": 1, "answer": "Critical", "value": 8 },
+          { "id": 5, "questionId": 1, "answer": "Catastrophic", "value": 10 }
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Assess the severity of technical consequences in the event of a loss of confidentiality?",
+        "coefficient": 0.4,
+        "Answers": [
+          { "id": 6, "questionId": 6, "answer": "Negligible", "value": 2 },
+          { "id": 7, "questionId": 6, "answer": "Minor", "value": 4 },
+          { "id": 8, "questionId": 6, "answer": "Moderate", "value": 6 },
+          { "id": 9, "questionId": 6, "answer": "Critical", "value": 8 },
+          { "id": 10, "questionId": 6, "answer": "Catastrophic", "value": 10 }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Assess the severity of technical consequences in the event of a loss of integrity?",
+        "coefficient": 0.4,
+        "Answers": [
+          { "id": 11, "questionId": 5, "answer": "Negligible", "value": 2 },
+          { "id": 12, "questionId": 5, "answer": "Minor", "value": 4 },
+          { "id": 13, "questionId": 5, "answer": "Moderate", "value": 6 },
+          { "id": 14, "questionId": 5, "answer": "Critical", "value": 8 },
+          { "id": 15, "questionId": 5, "answer": "Catastrophic", "value": 10 }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Assess the severity of technical consequences in the event of a loss of availability?",
+        "coefficient": 0.4,
+        "Answers": [
+          { "id": 16, "questionId": 4, "answer": "Negligible", "value": 2 },
+          { "id": 17, "questionId": 4, "answer": "Minor", "value": 4 },
+          { "id": 18, "questionId": 4, "answer": "Moderate", "value": 6 },
+          { "id": 19, "questionId": 4, "answer": "Critical", "value": 8 },
+          { "id": 20, "questionId": 4, "answer": "Catastrophic", "value": 10 }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Assess the severity of business consequences in the event of a loss of confidentiality?",
+        "coefficient": 0.5,
+        "Answers": [
+          { "id": 21, "questionId": 3, "answer": "Negligible", "value": 2 },
+          { "id": 22, "questionId": 3, "answer": "Minor", "value": 4 },
+          { "id": 23, "questionId": 3, "answer": "Moderate", "value": 6 },
+          { "id": 24, "questionId": 3, "answer": "Critical", "value": 8 },
+          { "id": 25, "questionId": 3, "answer": "Catastrophic", "value": 10 }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Assess the severity of business consequences in the event of a loss of integrity?",
+        "coefficient": 0.5,
+        "Answers": [
+          { "id": 26, "questionId": 2, "answer": "Negligible", "value": 2 },
+          { "id": 27, "questionId": 2, "answer": "Minor", "value": 4 },
+          { "id": 28, "questionId": 2, "answer": "Moderate", "value": 6 },
+          { "id": 29, "questionId": 2, "answer": "Critical", "value": 8 },
+          { "id": 30, "questionId": 2, "answer": "Catastrophic", "value": 10 }
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Do you have a post-attack recovery plan?",
+        "coefficient": 0.1,
+        "Answers": [
+          { "id": 33, "questionId": 7, "answer": "Partially", "value": 60 },
+          { "id": 31, "questionId": 7, "answer": "Yes", "value": 30 },
+          { "id": 32, "questionId": 7, "answer": "No", "value": 100 }
+        ]
+      },
+      {
+        "id": 8,
+        "question": "Do you have defenses in place against standard attacks?",
+        "coefficient": 0.75,
+        "Answers": [
+          { "id": 35, "questionId": 8, "answer": "No", "value": 10 },
+          { "id": 36, "questionId": 8, "answer": "Partially", "value": 5 },
+          { "id": 34, "questionId": 8, "answer": "Yes", "value": 1 }
+        ]
+      },
+      {
+        "id": 9,
+        "question": "Have there already been attacks??",
+        "coefficient": 0.25,
+        "Answers": [
+          { "id": 38, "questionId": 9, "answer": "No", "value": 1 },
+          { "id": 37, "questionId": 9, "answer": "Yes", "value": 10 }
+        ]
+      }
+    ]
+  }
+}
